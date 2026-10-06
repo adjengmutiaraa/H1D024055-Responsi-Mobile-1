@@ -13,10 +13,10 @@ Aplikasi mobile Android berbasis **Jetpack Compose** untuk menampilkan katalog d
 ## 📱 Screenshot Aplikasi
 
 ### Halaman Katalog Gempa
-![Halaman Katalog](outputs/katalog.png)
+![Halaman Katalog](outputs/katalog.jpeg)
 
 ### Halaman Detail Gempa
-![Halaman Detail Gempa](outputs/detail.png)
+![Halaman Detail Gempa](outputs/detail.jpeg)
 
 ---
 
