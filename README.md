@@ -1,4 +1,10 @@
-# Pantau Gempa BMKG - Aplikasi Monitoring & Katalog Gempa Terkini
+Nama: Adjeng Mutiara Dewi
+NIM: H1D024055
+Shift Baru: I
+Shift KRS: B
+Responsi 1 - Praktikum Pemrograman Mobile
+
+# Paket 1 = Pantau Gempa BMKG - Aplikasi Monitoring & Katalog Gempa Terkini
 
 Aplikasi mobile Android berbasis **Jetpack Compose** untuk menampilkan katalog dan pemantauan gempa bumi terkini di seluruh wilayah Indonesia secara *real-time* langsung dari REST API resmi Badan Meteorologi, Klimatologi, dan Geofisika (BMKG).
 
@@ -6,9 +12,11 @@ Aplikasi mobile Android berbasis **Jetpack Compose** untuk menampilkan katalog d
 
 ## 📱 Screenshot Aplikasi
 
-| Home Screen (Katalog & Pencarian) | Detail Screen (Parameter Gempa) |
-| :---: | :---: |
-| *(Letakkan screenshot Home Screen di sini)* | *(Letakkan screenshot Detail Screen di sini)* |
+### Halaman Katalog Gempa
+![Halaman Katalog](outputs/katalog.png)
+
+### Halaman Detail Gempa
+![Halaman Detail Gempa](outputs/detail.png)
 
 ---
 
@@ -104,12 +112,12 @@ Aplikasi dibangun dengan mematuhi pola arsitektur **Model-View-ViewModel (MVVM)*
   - Custom Color Scheme (`Color.kt`, `Theme.kt` dengan Light & Dark mode)
   - Custom Typography (`Type.kt`)
   - Lazy Layout (`LazyColumn`)
-- **Navigasi**: Navigation Compose (Maksimal 2 screen: Home Screen & Detail Screen)
+- **Navigasi**: Navigation Compose (maksimal 2 screen: Home Screen & Detail Screen)
 - **Networking & Serialization**:
   - `Retrofit` (v3.0.0)
   - `Converter Gson` (v3.0.0)
 - **Izin Aplikasi**:
   - `android.permission.INTERNET` di `AndroidManifest.xml`
 - **Sesuai Batasan Tugas**:
-  - Tanpa library pemuat gambar (Bebas dari Coil / Glide)
+  - Tanpa library pemuat gambar (tidak ada Coil / Glide)
   - Tanpa pemanggilan API langsung pada Composable
