@@ -1,8 +1,8 @@
-Nama: Adjeng Mutiara Dewi
-NIM: H1D024055
-Shift Baru: I
-Shift KRS: B
-Responsi 1 - Praktikum Pemrograman Mobile
+**Nama:** Adjeng Mutiara Dewi
+**NIM:** H1D024055
+**Shift Baru:** I
+**Shift KRS:** B
+**Responsi:** 1 - Praktikum Pemrograman Mobile
 
 # Paket 1 = Pantau Gempa BMKG - Aplikasi Monitoring & Katalog Gempa Terkini
 
@@ -10,17 +10,26 @@ Aplikasi mobile Android berbasis **Jetpack Compose** untuk menampilkan katalog d
 
 ---
 
-## 📱 Screenshot Aplikasi
+## Screenshot Aplikasi
 
-### Halaman Katalog Gempa
-![Halaman Katalog](outputs/katalog.jpeg)
-
-### Halaman Detail Gempa
-![Halaman Detail Gempa](outputs/detail.jpeg)
+<table>
+  <tr>
+    <td align="center"><b>Halaman Katalog Gempa</b></td>
+    <td align="center"><b>Halaman Detail Gempa</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="outputs/katalog.jpeg" width="280">
+    </td>
+    <td align="center">
+      <img src="outputs/detail.jpeg" width="280">
+    </td>
+  </tr>
+</table>
 
 ---
 
-## ✨ Fitur Aplikasi
+## Fitur Aplikasi
 
 1. **Katalog Gempa Terkini**: Menampilkan daftar gempa bumi M 5.0+ terbaru dari BMKG menggunakan `LazyColumn`.
 2. **Pencarian / Filter Lokal Wilayah**: Fitur pencarian lokasi wilayah gempa secara instan dan responsif.
@@ -30,7 +39,7 @@ Aplikasi mobile Android berbasis **Jetpack Compose** untuk menampilkan katalog d
 
 ---
 
-## 🏗️ Arsitektur Aplikasi (MVVM Pattern)
+## Arsitektur Aplikasi (MVVM Pattern)
 
 Aplikasi dibangun dengan mematuhi pola arsitektur **Model-View-ViewModel (MVVM)**:
 
@@ -70,7 +79,7 @@ Aplikasi dibangun dengan mematuhi pola arsitektur **Model-View-ViewModel (MVVM)*
 
 ---
 
-## 🌐 Sumber Data & API
+## Sumber Data & API
 
 - **Penyedia Data**: Badan Meteorologi, Klimatologi, dan Geofisika (BMKG)
 - **Base URL**: `https://data.bmkg.go.id/`
@@ -100,7 +109,7 @@ Aplikasi dibangun dengan mematuhi pola arsitektur **Model-View-ViewModel (MVVM)*
 
 ---
 
-## 🛠️ Spesifikasi Teknis & Dependencies
+## Spesifikasi Teknis & Dependencies
 
 - **Bahasa Pemrograman**: Kotlin
   - Pemanfaatan *Data Class* (`GempaItem`, `InfoGempa`, `Gempa`)
